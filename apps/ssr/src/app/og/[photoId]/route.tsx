@@ -3,8 +3,8 @@ import { photoLoader } from '@photo-gallery/data'
 import { ImageResponse } from 'next/og'
 import type { NextRequest } from 'next/server'
 
-import geistFont from './Geist-Medium.ttf'
-import Sans from './PingFangSC.ttf'
+// import geistFont from './Geist-Medium.ttf'
+// import Sans from './PingFangSC.ttf'
 
 export const runtime = 'edge'
 
@@ -798,20 +798,6 @@ export const GET = async (
         width: 1200,
         height: 628,
         emoji: 'noto',
-        fonts: [
-          {
-            name: 'Geist',
-            data: geistFont,
-            style: 'normal',
-            weight: 400,
-          },
-          {
-            name: 'SF Pro Display',
-            data: Sans,
-            style: 'normal',
-            weight: 400,
-          },
-        ],
         headers: {
           // Cache 1 years
           'Cache-Control':
