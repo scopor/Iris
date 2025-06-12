@@ -55,7 +55,7 @@ export const ActionGroup = () => {
           onClick={() => window.open("https://scopor.me", '_blank')}
           title="博客"
         >
-          <i className="i-mingcute-home-line text-base text-gray-600 dark:text-gray-300" />
+          <i className="i-mingcute-home-3-line text-base text-gray-600 dark:text-gray-300" />
       </Button>
       
       {siteConfig.extra?.accessRepo && (
