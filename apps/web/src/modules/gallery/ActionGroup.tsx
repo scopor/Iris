@@ -48,6 +48,16 @@ export const ActionGroup = () => {
 
   return (
     <div className="flex items-center justify-center gap-3">
+      <Button
+          variant="ghost"
+          size="sm"
+          className="h-10 w-10 rounded-full border-0 bg-gray-100 transition-all duration-200 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700"
+          onClick={() => window.open("https://scopor.me", '_blank')}
+          title="博客"
+        >
+          <i className="i-mingcute-home-line text-base text-gray-600 dark:text-gray-300" />
+      </Button>
+      
       {siteConfig.extra?.accessRepo && (
         <Button
           variant="ghost"
